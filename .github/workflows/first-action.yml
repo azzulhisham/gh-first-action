@@ -1,0 +1,10 @@
+name: simple first action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuuntu-latest
+    steps:
+      - name: print something
+        run: echo "Hello World"
+      - name: say goodbye
+        run: echo "bye bye!!!"
